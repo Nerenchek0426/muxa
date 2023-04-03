@@ -6,11 +6,6 @@ a {
     text-decoration: none;
     color: white;
 }
-
-* {
-    background-image: url("/ГАВНО.jpg");
-}
-
 .main {
     height: 100vh;
     background: url(/resourse/img/background/BG.png);
@@ -47,6 +42,7 @@ a {
     }
 }
 .navigations {
+    width: 300px;
     border: red 1px solid;
     display: flex;
     justify-content: space-between;

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -187,10 +186,6 @@ a {
   color: white;
 }
 
-* {
-  background-image: url("/ГАВНО.jpg");
-}
-
 .main {
   height: 100vh;
   background: url(/resourse/img/background/BG.png);
@@ -231,6 +226,7 @@ a {
 }
 
 .navigations {
+  width: 300px;
   border: red 1px solid;
   display: flex;
   justify-content: space-between;
