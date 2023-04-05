@@ -8,12 +8,12 @@ a {
 }
 .main {
     height: 120vh;
-    background: url(/resourse/img/background/BG.png);
+    background: url(/BG.png);
     backdrop-filter: brightness(40%);
     background-size: cover;
     backdrop-filter: opacity(100%);
 }
-.header {f
+.header {
     &_wrap{
     display: flex;
     justify-content: space-between;
